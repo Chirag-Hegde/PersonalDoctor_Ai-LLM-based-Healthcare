@@ -50,16 +50,6 @@ __Training Procedures:__ We used `HuggingFace` for the model and imported Fast.a
 Model was trained with `sklearn`'s ensemble random forest algorithm leveraging mutiple decision tree algorithms. This model predicts potential diseases based on the symptoms input.<br>
 
 
-
-## Model Deployment
-A `Gradio App` was coded to deploy the LLM model in HuggingFace. This live huggingfaces API is later integrated in the Back-End. The Gradio implementation can be found in `deployment_hf` folder and online [here](https://huggingface.co/spaces/tanvir-ishraq/healifyLLM-classifier)
-
-
-
-
-## Live Website Deployment
-Deployed a Flask App, built to provide user interface to users. Check the `flask-deployment` github branch. The website is live [here](https://healifyai-llm.onrender.com) 
-
 <img src = "github_img/healify_LLM_preview.jpg" width="1130" >
 <img src = "github_img/server_delpoy.png" width="1130" >
 
